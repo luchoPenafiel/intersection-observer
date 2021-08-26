@@ -20,7 +20,6 @@ export default function Home() {
 
   const createObserver = (target) => {
     const options = {
-      rootMargin: '0px',
       threshold: 1.0,
     };
 
